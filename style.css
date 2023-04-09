@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  font-size: 40px;
+}
+
+body {
+  background: rgba(0, 255, 242, 0.198);
+}
+
+.header {
+  display: flex;
+  justify-content: end;
+  border: 2px solid green;
+  margin: 10px;
+}
+
+.header h1 {
+  padding: 20px;
+  margin: 20px;
+  color: rgb(255, 0, 0);
+  border: 3px solid rgb(44, 9, 242);
+  cursor: pointer;
+}
+
+#content {
+  background: white;
+  height: 78%;
+  margin: 20px;
+}
+
+#content .text {
+  padding: 40px;
+  margin-right: 50%;
+  position: absolute;
+}
+
+#content .img {
+  margin-left: 50%;
+  position: relative;
+}
+
+#content .img img {
+  padding: 20px;
+  width: 860;
+  height: 520;
+}
